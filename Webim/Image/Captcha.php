@@ -353,7 +353,7 @@ class Captcha {
           mt_rand(30, 70),
           $strColor,
           $this->font(),
-          $this->str{$i}
+          $this->str[$i]
         );
       }
     }
